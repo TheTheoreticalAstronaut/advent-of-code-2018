@@ -2,6 +2,7 @@ from Types import *
 from AOCChallenge import AOCChallenge
 from Day1 import Day1
 from Day2 import Day2
+from Day3 import Day3
 from Day8 import Day8
 from time import time
 
@@ -34,6 +35,8 @@ def _create_challenge_instance(challenge: Challenge) -> AOCChallenge:
         return Day1()
     elif challenge == Challenge.DAY_2:
         return Day2()
+    elif challenge == Challenge.DAY_3:
+        return Day3()
     elif challenge == Challenge.DAY_8:
         return Day8()
     else:
